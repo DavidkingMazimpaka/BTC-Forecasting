@@ -87,7 +87,7 @@ The model's performance was evaluated using metrics such as Mean Absolute Error 
 - Test data MAE:  1410.0935997884612
 
 ### Visualization
-![BTC Price Predictions](data/btc%20forecasting.pngbtc forecasting.png)
+![BTC Price Predictions](data/btc%20forecasting.png)
 
 In this section, the predicted Bitcoin prices are compared to the actual prices. The graph illustrates the model's effectiveness in capturing overall trends in Bitcoin's price movements. However, some discrepancies are evident, particularly during periods of high volatility, where the model's predictions may deviate from actual market behavior. These insights highlight both the strengths and limitations of the forecasting model.
 
