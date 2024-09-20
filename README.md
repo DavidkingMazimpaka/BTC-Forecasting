@@ -77,15 +77,14 @@ model.compile(loss="mean_squared_error",optimizer="adam")
 ## 5. Results and Evaluation
 The model's performance was evaluated using metrics such as Mean Absolute Error (MAE) and Root Mean Square Error (RMSE).
 
-#### Performance Metrics
+### Performance Metrics
 
-Train data RMSE:  1887.9166018845806
-Train data MSE:  3564229.0956714223
-Train data MAE:  1468.6586168509853
--------------------------------------------------------------------------------------
-Test data RMSE:  1831.431546424147
-Test data MSE:  3354141.5092375427
-Test data MAE:  1410.0935997884612
+- Train data RMSE:  1887.9166018845806
+- Train data MSE:  3564229.0956714223
+- Train data MAE:  1468.6586168509853
+- Test data RMSE:  1831.431546424147
+- Test data MSE:  3354141.5092375427
+- Test data MAE:  1410.0935997884612
 
 ### Visualization
 ![BTC Price Predictions](btc forecasting.png)
