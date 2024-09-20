@@ -77,7 +77,8 @@ model.compile(loss="mean_squared_error",optimizer="adam")
 ## 5. Results and Evaluation
 The model's performance was evaluated using metrics such as Mean Absolute Error (MAE) and Root Mean Square Error (RMSE).
 
-Performance Metrics
+#### Performance Metrics
+
 Train data RMSE:  1887.9166018845806
 Train data MSE:  3564229.0956714223
 Train data MAE:  1468.6586168509853
@@ -87,7 +88,7 @@ Test data MSE:  3354141.5092375427
 Test data MAE:  1410.0935997884612
 
 ### Visualization
-![BTC Price Predictions](C:\Users\daluc\MyProjects\BTC-Forecasting\data\btc forecasting.png)
+![BTC Price Predictions](btc forecasting.png)
 
 In this section, the predicted Bitcoin prices are compared to the actual prices. The graph illustrates the model's effectiveness in capturing overall trends in Bitcoin's price movements. However, some discrepancies are evident, particularly during periods of high volatility, where the model's predictions may deviate from actual market behavior. These insights highlight both the strengths and limitations of the forecasting model.
 
